@@ -26,7 +26,23 @@ ul {
 }
 
 .landing {
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 100px 0;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 0 0;
+}
+
+.catch {
+    padding: 0 0 16px 0;
+}
+
+.description {
+    padding: 0 0 16px 0;
 }
 
 .large-text {
@@ -41,5 +57,12 @@ ul {
 }
 
 .button {
-    color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
