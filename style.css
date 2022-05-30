@@ -180,3 +180,10 @@ ul {
     border: 2px solid white;
     border-radius: 8px;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
