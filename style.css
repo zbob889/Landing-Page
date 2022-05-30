@@ -30,7 +30,12 @@ ul {
 .landing {
     display: flex;
     justify-content: space-between;
+    flex: 1 1 25%;
     padding: 100px 0 100px 0;
+}
+
+.talmud {
+    max-width:100%;
 }
 
 .header-text {
@@ -73,16 +78,47 @@ ul {
 
 .center {
     display: flex;
+    justify-content: center;
     padding: 100px 0 0 0;
 }
 
 .info {
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 25%;
+    gap: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.testiominal {
+    display: flex;
+    flex: 1 1 25%;
+}
+
+.people {
+    border-radius: 8px;
+    object-fit: fill;
+    height: 300px;
+    width: 100%;
+    max-width: 250px;
 }
 
 .inf-text {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding: 0 0 40px 0;
 }
