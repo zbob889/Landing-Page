@@ -78,7 +78,9 @@ ul {
 
 .center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 100px 0 0 0;
 }
 
@@ -121,4 +123,24 @@ ul {
     font-weight: 900;
     color: #1F2937;
     padding: 0 0 40px 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    align-items: center;
+    justify-content: center;
+    padding: 32px
+}
+
+.quotation {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.source {
+    padding: 0 0 0 300px;
 }
